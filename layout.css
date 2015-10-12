@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.head, .body, .side, .foot, body{
+    position: absolute;
+}
+
+.head, .side, .foot{
+    background-color: dimgray;
+}
+
+.head{
+    top:0; left:100px;right: 0;
+    height: 40px;
+}
+
+.head h1{
+    text-align: center;
+    margin: 0;
+}
+
+.body{
+    top:50px;left:100px;right: 0;bottom: 50px;
+    background-color: lightgray;
+}
+
+.side{
+    top:0; left: 0; bottom: 0;
+    width: 90px;
+}
+
+.side h3{
+    text-align: center;
+}
+
+.foot{
+    left: 100px; bottom: 0;right: 0;
+    height: 40px;
+}
+
+.foot li{
+    display: inline-block;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.clog{
+    border-bottom: 1px solid black;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
