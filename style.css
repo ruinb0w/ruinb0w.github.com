@@ -73,3 +73,11 @@ section article time {
     display: block;
     border-bottom: 2px solid white;
 }
+
+article ul li a {
+    color: white;
+}
+
+article ul li {
+    padding: 5px 0;
+}
