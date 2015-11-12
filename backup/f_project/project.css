@@ -1,0 +1,30 @@
+/*theme*/
+
+header h1 {
+    color: #fff;
+}
+
+header h1 span {
+    color: #eb4a55;
+}
+
+header div {
+    height: 10px;
+    background-color: #eb4a55;
+}
+
+header nav ul li#project {
+    background-color: #eb4a55;
+    border-radius: 5px 5px 0 0;
+}
+
+footer div a {
+    color: #eb4a55;
+}
+
+footer div a:hover {
+    background-color: #eb4a55;
+}
+
+
+/*theme-end*/
