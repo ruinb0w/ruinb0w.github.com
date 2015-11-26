@@ -28,3 +28,12 @@ footer div a:hover {
 
 
 /*theme-end*/
+
+article {
+    padding: 5px;
+    border-bottom: 5px solid #3b8475;
+}
+
+article p {
+    text-indent: 2em;
+}
