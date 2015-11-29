@@ -37,3 +37,8 @@ article {
 article p {
     text-indent: 2em;
 }
+
+article time {
+    display: block;
+    text-align: right;
+}
