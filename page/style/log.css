@@ -29,16 +29,19 @@ footer div a:hover {
 
 /*theme-end*/
 
-article {
-    padding: 5px;
+#passwdDiv {
+    text-align: center;
+}
+
+div#container article {
     border-bottom: 5px solid #3b8475;
 }
 
-article p {
-    text-indent: 2em;
-}
-
-article time {
+div#container time {
     display: block;
     text-align: right;
+}
+
+div#container {
+    display: none;
 }

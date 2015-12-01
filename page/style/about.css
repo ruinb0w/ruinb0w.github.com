@@ -29,10 +29,10 @@ footer div a:hover {
 
 /*theme-end*/
 
-article section {
-    margin: 20px 0;
+div#container h3 {
+    margin-bottom: 10px;
 }
 
-article p {
-    text-indent: 2em;
+div#container p {
+    margin-bottom: 10px;
 }

@@ -28,3 +28,16 @@ footer div a:hover {
 
 
 /*theme-end*/
+
+div#container a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+    height: 20px;
+}
+
+div#container a:hover {
+    background-color: #c73632;
+    color: #fff;
+    text-align: center;
+}
