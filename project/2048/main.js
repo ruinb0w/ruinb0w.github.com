@@ -184,7 +184,8 @@ document.addEventListener('touchend', function (event) {
 
     var deltax = endx - startx;
     var deltay = endy - starty;
-    if (Math.abs(deltax) < 0.3 * document_width && Math.abs(deltay) < 0.3 * document_width) {
+    //mark 0.3 -> 0.1
+    if (Math.abs(deltax) < 0.1 * document_width && Math.abs(deltay) < 0.1 * document_width) {
         return;
     }
     if ($('#score').text() == success_string) {
@@ -223,7 +224,7 @@ document.addEventListener('touchend', function (event) {
     }
 });
 
-//向左移动
+//move left
 function move_left() {
     if (!can_move_left(board)) {
         return false;
