@@ -34,3 +34,31 @@ article a {
     color: #000;
     display: inline-block;
 }
+
+/*define for project*/
+.projects {
+   background-color: #333; 
+   float: left;
+   padding: 10px;
+}
+
+.projects img{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+p.process {
+    text-indent: 0 !important;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    cursor: default;
+}
+
+.projects a{
+    background-color: #fff;
+    display: block;
+    text-align: center;
+}
