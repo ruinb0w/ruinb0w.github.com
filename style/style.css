@@ -84,7 +84,7 @@ header nav ul li#project:hover {
 
 div#container {
     width: 640px;
-    margin: auto;
+    margin: 0 auto 100px;
 }
 
 div#container article {
