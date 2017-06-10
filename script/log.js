@@ -1,15 +1,9 @@
 window.onload = init;
+window.onresize = init;
 
 function init() {
-    var click = document.getElementById("click");
-    click.onclick = clickHandler;
+    var container = document.getElementById("container");
+    var height = document.documentElement.clientHeight;
+    container.style.height = height - 160 + "px";
 }
 
-function clickHandler() {
-    var pass = document.getElementById("passwdInput");
-    if (pass.value == "zero") {
-                var container = document.getElementById("container");
-        var passDiv = document.getElementById("passwdDiv");
-        container.style.display = "block";    passDiv.style.display = "none";
-    }
-}
