@@ -18,19 +18,32 @@ header nav ul li#home {
     border-radius: 5px 5px 0 0;
 }
 
-footer div a {
+/*theme-end*/
+
+div#container{
+    width: 100%;
+}
+
+div#container p {
+    text-indent: 0 !important;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+div#container .themeColor {
     color: #3b8aab;
 }
 
-footer div a:hover {
-    background-color: #3b8aab;
-}
 
-
-/*theme-end*/
-
-img {
-    margin-top: 30px;
-    width: 100%;
-    height: 100%;
+div#container .hello {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    user-select: none;
+    cursor: default;
+    font-size: 50px;
+    background-color: #333;
+    border-radius: 10px;
+    color:#fff;
+    padding: 0 5px;
 }

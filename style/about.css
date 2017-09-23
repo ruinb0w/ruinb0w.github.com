@@ -36,3 +36,7 @@ div#container h3 {
 div#container p {
     margin-bottom: 10px;
 }
+
+div#container a[href="mailto:ruinb0w1994@gmail.com"]{
+    color: #f4b33b;
+}

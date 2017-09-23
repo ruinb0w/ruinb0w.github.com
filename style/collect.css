@@ -29,15 +29,31 @@ footer div a:hover {
 
 /*theme-end*/
 
-div#container a {
-    text-decoration: none;
-    display: block;
-    color: #000;
-    height: 20px;
+div#container details[open]{
+    border: 1px solid #c73632;
 }
 
-div#container a:hover {
-    background-color: #c73632;
+div#container summary:focus{
+    outline: none;
+}
+
+
+div#container details[open] summary{
+    background-color:#c73632;
     color: #fff;
+}
+
+div#container summary{
+    color: #000;
+    cursor: default;
+    user-select: none;
+}
+
+div#container a {
+    color: #c73632;
+}
+
+div#container .links {
     text-align: center;
 }
+

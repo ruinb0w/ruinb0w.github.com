@@ -58,7 +58,10 @@ p.process {
 }
 
 .projects a{
-    background-color: #fff;
     display: block;
     text-align: center;
+}
+
+.projects a h2{
+    background-color: #fff;
 }
