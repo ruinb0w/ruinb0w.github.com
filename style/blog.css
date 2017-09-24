@@ -34,13 +34,15 @@ div#container {
     position: absolute;
     width: 100%;
     top: 120px;
+    height: 100%;
     bottom: 20px;
     margin:0;
     padding: 0;
+    overflow: hidden;
 }
 
 div#container #leanote{
-    width: 100%;
+    width: calc(100% + 20px);
     height: 100%;
     border:0;
 }

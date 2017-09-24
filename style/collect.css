@@ -37,7 +37,6 @@ div#container summary:focus{
     outline: none;
 }
 
-
 div#container details[open] summary{
     background-color:#c73632;
     color: #fff;
@@ -59,5 +58,19 @@ div#container .links {
 
 div#container .select_video{
     margin: 5px;
-    
+}
+
+#player {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #c73632;
+    color: #fff;
 }

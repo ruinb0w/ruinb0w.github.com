@@ -7,13 +7,23 @@
     height: 460px;
     width: calc(100% - 62px);
     border: 4px solid #bbada0;
+    background-color: #ccc0b3;
+}
+
+#text:focus{
     background-color: rgb(238, 228, 218);
+    outline: none;
 }
 
 #key {
     width: calc(100% - 182px);
     background-color:#ccc0b3;
     border: 2px solid #bbada0;
+}
+
+#key:focus{
+    background-color: rgb(238, 228, 218);
+    outline: none;
 }
 
 button {
