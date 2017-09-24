@@ -26,5 +26,12 @@ footer div a:hover {
     background-color: #71456c;
 }
 
-
 /*theme-end*/
+
+P{
+    word-wrap:break-word;
+}
+
+div#container {
+    width: 100%;
+}

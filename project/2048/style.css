@@ -67,3 +67,15 @@ adress {
     display: block;
     text-align: right;
 }
+
+#back {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    font-size: 50px;
+    text-align: left;
+    background-color: #eb4a55;
+    width: fit-content;
+    color: #fff;
+    border-radius: 0 50% 50% 0;
+}
