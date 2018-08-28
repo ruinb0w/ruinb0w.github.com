@@ -72,9 +72,10 @@ adress {
     position: fixed;
     top: 10px;
     left: 0;
-    font-size: 50px;
     text-align: left;
     background-color: #eb4a55;
+    height: 50px;
+    line-height: 50px;
     width: fit-content;
     color: #fff;
     border-radius: 0 50% 50% 0;
