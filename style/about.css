@@ -40,3 +40,15 @@ div#container p {
 div#container a[href="mailto:ruinb0w@126.com"]{
     color: #f4b33b;
 }
+
+/* customize*/
+.bd, .fd{
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
