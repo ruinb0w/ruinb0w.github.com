@@ -42,13 +42,15 @@ div#container a[href="mailto:ruinb0w@126.com"]{
 }
 
 /* customize*/
-.bd, .fd{
+.bd, .fd, .client{
   float: left;
+  width: 180px;
+  margin: 0 auto;
 }
 .clear {
   clear: both;
 }
 .container {
-  width: 400px;
+  width: 540px;
   margin: 0 auto;
 }
