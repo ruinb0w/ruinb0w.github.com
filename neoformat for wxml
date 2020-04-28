@@ -1,0 +1,15 @@
+function! neoformat#formatters#wxml#enabled() abort
+    return ['js-beautify', 'html-beautify']
+endfunction
+
+function! neoformat#formatters#wxml#js-beautify() abort
+    return {
+        \ 'exe': 'js-beautify',
+        \ 'args': ['-s 4', '-q'],
+        \ 'stdin': 1
+        \ }
+endfunction
+
+function! neoformat#formatters#wxml#html-beautify() abort
+  return {'exe': html-beautify}
+endfunction
